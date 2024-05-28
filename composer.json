@@ -1,0 +1,19 @@
+{
+    "name": "lukas/consumindo",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lukas\\Consumindo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Moreira.pub",
+            "email": "Lucas.silvalsm@hotmail.com"
+        }
+    ],
+    "require": {
+        "lukas/buscar-cep": "dev-main"
+    },
+    "minimum-stability": "dev"
+}

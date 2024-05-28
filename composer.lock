@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0cebb7a4d751bc796605f90f116336e2",
+    "packages": [
+        {
+            "name": "lukas/buscar-cep",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LucaSilvalsm/Buscando-CEP.git",
+                "reference": "85fc95d6728004a5ac2fe1fc7269aa1d7a39a3ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LucaSilvalsm/Buscando-CEP/zipball/85fc95d6728004a5ac2fe1fc7269aa1d7a39a3ab",
+                "reference": "85fc95d6728004a5ac2fe1fc7269aa1d7a39a3ab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "Luckas\\BuscarCep\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Moreira.pub",
+                    "email": "Lucas.silvalsm@hotmail.com"
+                }
+            ],
+            "description": "Busca de CEP online",
+            "support": {
+                "issues": "https://github.com/LucaSilvalsm/Buscando-CEP/issues",
+                "source": "https://github.com/LucaSilvalsm/Buscando-CEP/tree/main"
+            },
+            "time": "2024-05-28T14:31:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
